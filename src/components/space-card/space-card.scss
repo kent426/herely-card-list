@@ -1,0 +1,57 @@
+//the wrapper div
+.card {
+    position: relative;
+    color: white;
+    font-weight: 400;
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+
+
+    &-title {
+        position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+
+        //the main title
+        &--main {
+            display: block;
+            font-size: 3rem;
+            white-space: nowrap;
+            
+
+
+        }
+
+        //the sub title
+        &--sub {
+            display: block;
+            font-size: 1.5rem;
+            white-space: nowrap;
+            
+        }
+    }
+
+    &-cap {
+        //distance
+        &--top {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            padding: 3rem;
+            font-size: 1.5rem;
+
+        }
+
+        //the price rate
+        &--bottom {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            padding: 3rem;
+            font-size: 1.5rem;
+
+        }
+    }
+    
+}
