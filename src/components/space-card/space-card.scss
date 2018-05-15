@@ -1,12 +1,20 @@
 //the wrapper div
 .card {
+    //move out of normal flow for setting up inner img and titles
     position: relative;
     color: white;
     font-weight: 400;
     font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 
 
+    &__img {
+        //responsive 
+        max-width: 100%;
+        width:100%;
+        height:auto;
+    }
     &-title {
+        //move titles to the center and display two of them as blocks
         position: absolute;
             top: 40%;
             left: 50%;
@@ -34,6 +42,7 @@
 
     &-cap {
         //distance
+        //to the top left corner and offset by some padding
         &--top {
             position: absolute;
             top: 0px;
@@ -44,6 +53,7 @@
         }
 
         //the price rate
+        //to the left bottom corner and offset by some padding 
         &--bottom {
             position: absolute;
             bottom: 0px;
