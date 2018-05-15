@@ -26,5 +26,5 @@
 
 
 * 部署：
-[busy-noise.surge.sh!](busy-noise.surge.sh)
+[busy-noise.surge.sh!](https://busy-noise.surge.sh)
 		
